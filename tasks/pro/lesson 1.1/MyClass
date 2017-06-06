@@ -1,0 +1,16 @@
+package tasks.pro.lesson_1_1
+
+
+public class MyClass
+{
+    @Test(a = 2, b = 5)
+    public static void TestI(int a, int b)    {
+        System.out.println("Method result = " + (a + b));
+    }
+
+    @Test(a = 20, b = 50)
+    public void TestII(int a, int b)    {
+        TestI(a, b);
+    }
+
+}
